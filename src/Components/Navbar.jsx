@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="w-full flex justify-evenly h-[10vh] bg-gray-200">
         <div className="flex h-[10vh] items-center">
           <img
-            src="public/assets/logo-black.png"
+            src="/assets/logo-black.png"
             alt="logo"
             className="w-[150px] h-[40%]"
           />
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex text-white justify-center items-center">
           <div className="block md:hidden cursor-pointer">
             <img
-              src="public/assets/menu.png"
+              src="/assets/menu.png"
               className="h-10"
               onClick={handleOpen}
             />
@@ -71,7 +71,7 @@ const Navbar = () => {
             
             <li className="list-none px-[20px] py-[10px]  hover:bg-yellow-500 rounded-[15px] text-black bg-white cursor-pointer duration-500 hover:text-black">
               <a>
-                <img src="public/assets/search-icon.png" alt="seacrch" />
+                <img src="/assets/search-icon.png" alt="seacrch" />
               </a>
             </li>
           </ul>
