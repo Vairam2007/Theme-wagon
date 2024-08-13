@@ -2,7 +2,7 @@ import React from 'react'
 
 const About_comp = () => {
   return (
-    <div className='w-full py-[50px] min-h-[100vh] flex flex-col lg:flex-row overflow-x-hidden'>
+    <div className='w-full py-[50px] min-h-[100vh] flex flex-col lg:flex-row overflow-hidden'>
       <div className="flex justify-center items-center flex-wrap w-full">
       <div className=" w-[80%] min-h-[60%]  flex flex-wrap justify-around items-center gap-5 flex-col ">
         <div data-aos="fade-down" className="w-[400px] h-[300px] flex justify-center md:justify-start">
