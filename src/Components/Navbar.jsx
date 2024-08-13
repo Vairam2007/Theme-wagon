@@ -120,7 +120,7 @@ const Navbar = () => {
             </li>
             </NavLink>
           <li className="flex justify-center cursor-pointer duration-500 hover:text-black border-[2px] border-yellow-500 list-none px-[20px] py-[10px] mx-[10px] hover:bg-yellow-500 rounded-[15px]">
-            <img src="public/assets/search-icon.png" alt="seacrch" />
+            <img src="/assets/search-icon.png" alt="seacrch" />
           </li>
         </div>
       )}
